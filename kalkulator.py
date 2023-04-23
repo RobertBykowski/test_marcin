@@ -1,14 +1,14 @@
-
 def dodaj(a, b):
     return a + b
 
 def odejmij(a, b):
     return a - b
 
-def mnoz(a, b):
+def pomnoz(a, b):
     return a * b
 
-def dziel(a, b):
+def podziel(a, b):
     if b == 0:
-        raise ValueError("Nie można dzielić przez zero!")
+        raise ZeroDivisionError("Nie można dzielić przez zero")
     return a / b
+
